@@ -1,4 +1,4 @@
-The Docker Compose script will build a container from the backend code (https://github.com/bezkoder/nodejs-express-sequelize-mysql/blob/master/README.md) using the Dockerfile, which will run as the backend. As a data store for the backend, a database based on Mysql is also started in the Docker-Compose script.
+The Docker Compose script will build a container from the backend code (https://github.com/bezkoder/nodejs-express-sequelize-mysql) using the Dockerfile, which will run as the backend. As a data store for the backend, a database based on Mysql is also started in the Docker-Compose script.
 
 The backend can only be called via an Nginx frontend which is also started as a separate container by the Docker Compose script.
 
