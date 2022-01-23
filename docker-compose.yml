@@ -18,12 +18,6 @@ services:
     restart: always
     ports:
       - 8080:8080
-    environment:
-      - DB_HOST=database
-      - DB_USER=root
-      - DB_PASSWORD=123456
-      - DB_NAME=testdb
-      - DB_PORT=3306
     stdin_open: true
     tty: true
     networks:
